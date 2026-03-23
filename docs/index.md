@@ -60,7 +60,7 @@ Eqvaldi is a minimal, customized Linux distribution based on **Debian** and **Ar
 
 ### Release lines
 
-=== "V4-dev"
+=== "V4-LTS"
     Latest development builds targeting **Debian 13 (Trixie)** and **Armbian 24.8**.
     Rolling updates, not production-ready.
 
@@ -68,7 +68,7 @@ Eqvaldi is a minimal, customized Linux distribution based on **Debian** and **Ar
     Stable long-term support on **Debian 12 (Bookworm)**.
     Recommended for most users.
 
-=== "V2-LTS"
+=== "V2-LTS (EOL)"
     Previous long-term support on **Debian 11 (Bullseye)**.
     Maintenance-only.
 
