@@ -1,0 +1,17 @@
+/* Maps the variables in colors.css to Material for MkDocs internals.
+   Do not add color values here — edit colors.css instead. */
+
+[data-md-color-primary="custom"] {
+  --md-primary-fg-color:        var(--eq-primary);
+  --md-primary-fg-color--light: var(--eq-primary-light);
+  --md-primary-fg-color--dark:  var(--eq-primary-dark);
+  --md-primary-bg-color:        var(--eq-on-primary);
+  --md-primary-bg-color--light: var(--eq-on-primary-muted);
+}
+
+[data-md-color-accent="custom"] {
+  --md-accent-fg-color:              var(--eq-accent);
+  --md-accent-fg-color--transparent: var(--eq-accent-transparent);
+  --md-accent-bg-color:              var(--eq-on-primary);
+  --md-accent-bg-color--light:       var(--eq-on-primary-muted);
+}

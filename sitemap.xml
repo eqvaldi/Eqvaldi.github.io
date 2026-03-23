@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://eqvaldi.github.io/</loc>
+         <lastmod>2026-03-23</lastmod>
+    </url>
+    <url>
+         <loc>https://eqvaldi.github.io/changelog/</loc>
+         <lastmod>2026-03-23</lastmod>
+    </url>
+    <url>
+         <loc>https://eqvaldi.github.io/downloads/</loc>
+         <lastmod>2026-03-23</lastmod>
+    </url>
+    <url>
+         <loc>https://eqvaldi.github.io/news/</loc>
+         <lastmod>2026-03-23</lastmod>
+    </url>
+    <url>
+         <loc>https://eqvaldi.github.io/building/</loc>
+         <lastmod>2026-03-23</lastmod>
+    </url>
+    <url>
+         <loc>https://eqvaldi.github.io/building/build-server/</loc>
+         <lastmod>2026-03-23</lastmod>
+    </url>
+    <url>
+         <loc>https://eqvaldi.github.io/building/install-scripts/</loc>
+         <lastmod>2026-03-23</lastmod>
+    </url>
+</urlset>
