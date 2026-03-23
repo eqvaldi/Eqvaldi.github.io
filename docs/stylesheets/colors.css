@@ -1,0 +1,17 @@
+/* Eqvaldi — COLOR CONFIGURATION */
+
+:root {
+  /* Primary color — nav bar, active tabs, headings underline */
+  /* Base: RGB(5, 100, 115) = #056473  HSL(188°, 92%, 24%)   */
+  --eq-primary:             #056473;  /* deep teal — base            */
+  --eq-primary-light:       #0D8FA5;  /* hover / lighter variant     */
+  --eq-primary-dark:        #033B45;  /* active / pressed variant    */
+
+  /* Accent color — links, buttons, highlighted UI elements */
+  --eq-accent:              #1FAFC5;  /* bright teal — stands out on dark backgrounds */
+  --eq-accent-transparent:  #1FAFC530; /* accent @ ~19% opacity, used for focus rings */
+
+  /* Text colour rendered on top of primary/accent backgrounds */
+  --eq-on-primary:          #ffffff;
+  --eq-on-primary-muted:    #ffffffb3;
+}

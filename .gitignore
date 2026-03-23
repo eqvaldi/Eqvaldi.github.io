@@ -1,0 +1,4 @@
+site/
+docs/NEWS.txt
+docs/Changelog.txt
+__pycache__

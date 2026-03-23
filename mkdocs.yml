@@ -1,0 +1,76 @@
+site_name: Eqvaldi Linux
+site_url: https://eqvaldi.github.io
+site_description: A minimal, Debian-based Linux distribution built on Armbian — optimized for performance across x86 and ARM platforms.
+site_author: Thomas Mozdren
+
+theme:
+  name: material
+  palette:
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    primary: custom
+    accent: custom
+    toggle:
+      icon: material/brightness-4
+      name: Switch to light mode
+  - media: "(prefers-color-scheme: light)"
+    scheme: default
+    primary: custom
+    accent: custom
+    toggle:
+      icon: material/brightness-7
+      name: Switch to dark mode
+  features:
+  - navigation.tabs
+  - navigation.tabs.sticky
+  - navigation.instant
+  - navigation.top
+  - navigation.sections
+  - search.suggest
+  - search.highlight
+  - content.code.copy
+  - content.tabs.link
+  icon:
+    logo: material/linux
+  favicon: assets/logo.jpg
+
+nav:
+- Home: index.md
+- Downloads: downloads.md
+- Building:
+  - Overview: building/index.md
+  - Install Scripts: building/install-scripts.md
+  - Build Server: building/build-server.md
+- Changelog: changelog.md
+- News: news.md
+
+extra_css:
+- stylesheets/colors.css
+- stylesheets/extra.css
+
+plugins:
+- search
+
+markdown_extensions:
+- admonition
+- pymdownx.details
+- pymdownx.superfences
+- pymdownx.tabbed:
+    alternate_style: true
+- pymdownx.emoji:
+    emoji_index: !!python/name:material.extensions.emoji.twemoji ""
+    emoji_generator: !!python/name:material.extensions.emoji.to_svg ""
+- attr_list
+- md_in_html
+- tables
+- toc:
+    permalink: true
+
+extra:
+  social:
+  - icon: fontawesome/brands/github
+    link: https://github.com/Eqvaldi
+    name: Eqvaldi on GitHub
+  generator: false
+
+copyright: Copyright &copy; 2026 Thomas Mozdren and Eqvaldi
