@@ -28,7 +28,7 @@ Three release channels are available. Choose the one that fits your needs.
 After downloading, verify your image before flashing.
 
 ```bash
-sha256sum Eqvaldi-*.img.xz
+sha256sum EQLinux*.img.xz
 ```
 
 Compare the output against the checksum file published alongside the release on GitHub.
