@@ -52,30 +52,35 @@ Eqvaldi is a minimal, customized Linux distribution based on **Debian** and **Ar
 
 | Feature | Details |
 |---|---|
-| Base | Debian (Bookworm / Bullseye) + Armbian |
-| Desktops | Cinnamon, MATE |
+| Base | Debian (Bookworm / Bullseye) + Ubuntu (Resolute) |
+| Desktops | Cinnamon, MATE, XFCE |
 | Architectures | x86\_64, ARM (various SBCs) |
 | Release lines | V2-LTS · V3-LTS · V4-dev |
 | Kernel | LTS + Edge options |
 
 ### Release lines
 
-=== "V4-LTS"
-    Latest development builds targeting **Debian 13 (Trixie)** and **Armbian 24.8**.
+=== "V5-DEV"
+    Latest development builds targeting **Debian 14 (Forky)** and **Armbian 26.11**.
     Rolling updates, not production-ready.
 
-=== "V3-LTS"
-    Stable long-term support on **Debian 12 (Bookworm)**.
+=== "V4-LTS"
+    Latest development builds targeting **Debian 13 (Trixie)** and **Armbian 26.8**.
     Recommended for most users.
+
+=== "V3-LTS (EOL)"
+    Previous long-term support on **Debian 12 (Bookworm)**.
+    End of life last version was 3.7.
 
 === "V2-LTS (EOL)"
     Previous long-term support on **Debian 11 (Bullseye)**.
-    Maintenance-only.
+    End of life last version was 2.7.
 
 === "V1-LTS (EOL)"
-    End-of-life. No longer receives updates.
+    Previous long-term support on **Debian 10 (Bullseye)**.
+    End of life last version was 1.8.
 
 ---
 
-[Download V3-LTS](downloads.md){ .md-button .md-button--primary }
+[Download V4-LTS](downloads.md){ .md-button .md-button--primary }
 [View Source :material-github:](https://github.com/Eqvaldi/build){ .md-button }
