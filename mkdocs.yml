@@ -30,8 +30,7 @@ theme:
   - search.highlight
   - content.code.copy
   - content.tabs.link
-  icon:
-    logo: material/linux
+  logo: assets/logo.png
   favicon: assets/logo.png
 
 nav:
