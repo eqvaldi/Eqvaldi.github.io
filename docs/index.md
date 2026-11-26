@@ -55,7 +55,6 @@ Eqvaldi is a minimal, customized Linux distribution based on **Debian** and **Ar
 | Base | Debian (Bookworm / Bullseye) + Ubuntu (Resolute) |
 | Desktops | Cinnamon, MATE, XFCE, LXQT |
 | Architectures | x86\_64, ARM (various SBCs) |
-| Release lines | V2-LTS · V3-LTS · V4-dev |
 | Kernel | LTS + Edge options |
 
 ### Release lines
