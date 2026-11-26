@@ -32,7 +32,7 @@ theme:
   - content.tabs.link
   icon:
     logo: material/linux
-  favicon: assets/logo.jpg
+  favicon: assets/logo.png
 
 nav:
 - Home: index.md
